@@ -1,0 +1,30 @@
+button {
+    padding: 10px;
+    border: 2px solid #313538;
+    border-radius: 4px;
+    background-color: #2ecc71;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-weight: 700;
+    transition: 0.5s ease;
+    margin: 1rem;
+  }
+  
+  button:hover {
+    border: 2px solid #011a0b;
+    background-color: #3498db;
+  }
+  button * {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+
+  h2 {
+    padding: 10px;
+    font-size: 4rem;
+    color: #4e07f5;
+  }
