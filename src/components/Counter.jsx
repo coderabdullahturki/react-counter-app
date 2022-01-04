@@ -3,7 +3,9 @@ import React, { useState } from 'react';
 
 const Counter = () => {
 
-    const [count, setCount] = useState(0);
+    const initialValue = 0;
+
+    const [count, setCount] = useState(initialValue);
 
     const handleIncrease = () => {
         setCount(count + 1)
@@ -12,7 +14,7 @@ const Counter = () => {
         setCount(count - 1)
     }
     const handleReset = () => {
-        setCount(0)
+        setCount(initialValue)
     }
 
     return (
