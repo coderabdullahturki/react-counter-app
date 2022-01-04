@@ -20,9 +20,9 @@ const Counter = () => {
     return (
         <div>
             <h2>{count}</h2>
-            <button onClick={() => handleIncrease}>Increment</button>
-            <button onClick={() => handleDecrease}>Decrement</button>
-            <button onClick={() => handleReset}>Reset</button>
+            <button onClick={handleIncrease}>Increment</button>
+            <button onClick={handleDecrease}>Decrement</button>
+            <button onClick={handleReset}>Reset</button>
 
         </div>
         )
